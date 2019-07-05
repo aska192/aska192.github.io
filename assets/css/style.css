@@ -40,11 +40,11 @@ section {
 }
 
 .set-bk-clr {
-    background-color: #FF2276;
+    background-color: #283747;
 }
 
 .clr-set {
-    color: #FF2276;
+    color: #283747;
 }
 
 .f-big {
@@ -53,7 +53,7 @@ section {
 }
 
 .set-bk-clr:hover {
-    background-color: rgba(107, 1, 41, 0.67);
+    background-color: rgba(41, 83, 199, 0.568);
 }
 /*==============================
 NAVBAR STYLES
@@ -93,7 +93,7 @@ padding:0px;
     }
 
 .navbar-default {
-    background-color: #FF2276;
+    background-color: #283747;
     border-color: transparent;
 }
 /* ADDED PADDING IN NAVBAR */
@@ -124,7 +124,7 @@ padding:0px;
  ============================================================ */
 
 #header {
-    background: url(../img/home.jpg) no-repeat center center;
+    background: url(../img/portait.JPG) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -135,16 +135,16 @@ padding:0px;
 
     #header .overlay {
         background-color: rgba(3, 3, 3, 0.8);
-        min-height: 700px;
+        min-height: 750px;
     }
 
     #header h1 {
         line-height: 60px;
         font-size: 45px;
         font-weight: 900;
-        padding-top: 180px;
+        padding-top: 120px;
         padding-bottom: 35px;
-        color: #FF2276;
+        color: #ffffffde;
     }
 
 
@@ -165,7 +165,7 @@ padding:0px;
     #services i {
         font-size: 80px;
         padding: 30px;
-        color: #FF2276;
+        color: #283747;
     }
 
     #services h4 {
@@ -173,11 +173,11 @@ padding:0px;
         padding-top: 15px;
     }
 /* =============================================================
-  CLIENTS SECTION STYLES
+  SOFTWARE SECTION STYLES
  ============================================================ */
 
-#clients {
-    background: url(../img/clients.jpg) no-repeat center center;
+#softwares-slider {
+    background: url(../img/software-tech.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -185,7 +185,7 @@ padding:0px;
     background-attachment: fixed;
 }
 
-    #clients .overlay {
+    #softwares-slider .overlay {
         background-color: rgba(0,0,0,0.7);
         padding-top: 90px;
         min-height: 300px;
@@ -194,37 +194,41 @@ padding:0px;
         padding-bottom: 100px;
     }
 
-.clients-carousel {
+.softwares-slider-carousel {
     margin-top: 50px; /*SMALL TOP MARGIN FOR SPACE */
     padding: 0 30px 30px 30px;
 }
 
-    .clients-carousel .thumbnail {
-        border: 1px solid #FF2276;
+    .softwares-slider-carousel .thumbnail {
+        border: 1px solid #283747;
     }
 
-    .clients-carousel .carousel-control.left {
+    .thumbnail {
+        font-size: 30px;
+    }
+
+    .softwares-slider-carousel .carousel-control.left {
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #FF2276;
+        background: #283747;
         left: -15px;
     }
 
-    .clients-carousel .carousel-control.right {
+    .softwares-slider-carousel .carousel-control.right {
         height: 30px;
         width: 25px;
         margin-top: 45px;
-        background: #FF2276;
+        background: #283747;
         right: -15px;
     }
 
-    .clients-carousel img {
+    .softwares-slider-carousel img {
         width: 100%;
         height: 120px;
     }
 
-#clients .thumbnail {
+#softwares-slider .thumbnail {
     background-color: transparent;
 }
 
@@ -234,8 +238,8 @@ padding:0px;
 
 /* FOR CHANGING COLOR OF ACTIVE CATEGORY */
 .caegories a.active {
-    background-color: #FF2276;
-    border: 2px solid #FF2276;
+    background-color: #283747;
+    border: 2px solid #283747;
 }
 
 /* FOR TRANSITION BEAUTIFULLY */
@@ -246,7 +250,7 @@ padding:0px;
 }
 
 #works .work-wrapper {
-    border: 2px solid #FF2276;
+    border: 2px solid #283747;
     padding: 2px;
     margin: 5px 5px 10px 5px;
 }
@@ -263,10 +267,10 @@ padding:0px;
         opacity: 1;
     }
 /* =============================================================
-  TESTIMONIAL SECTION STYLES
+  AWARDS SECTION STYLES
  ============================================================ */
-#testimonial {
-    background: url(../img/testimonial.jpg) no-repeat center center;
+#awards {
+    background: url(../img/awards.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -274,7 +278,7 @@ padding:0px;
     background-attachment: fixed;
 }
 
-    #testimonial .overlay {
+    #awards .overlay {
         background-color: rgba(0,0,0,0.7);
         padding-top: 90px;
         min-height: 300px;
@@ -283,9 +287,9 @@ padding:0px;
         padding-bottom: 100px;
     }
 /* =============================================================
-  TEAM SECTION STYLES
+  ABOUT SECTION STYLES
  ============================================================ */
-#team {
+#about {
     background-color: rgba(237, 237, 237, 1);
 }
 
@@ -293,7 +297,7 @@ padding:0px;
     margin-right: 40px;
     max-height: 150px;
     margin-bottom: 20px;
-    border: 2px solid #FF2276;
+    border: 2px solid #283747;
 }
 
     .media img:hover {
@@ -303,7 +307,7 @@ padding:0px;
   CONTACT SECTION STYLES
  ============================================================ */
 #contact {
-    background: url(../img/clients.jpg) no-repeat center center;
+    background: url(../img/softwares-slider.jpg) no-repeat center center;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
@@ -334,3 +338,18 @@ footer {
         color: #000;
         text-decoration: none;
     }
+
+/* =============================================================
+  IMAGE STYLES
+ ============================================================ */
+.skill-icon {
+     width: 110px;
+     height: 110px;
+     object-fit: contain;
+    }
+
+.img-responsive {
+    width: 275px;
+    height: 145px;
+    object-fit: contain;
+}

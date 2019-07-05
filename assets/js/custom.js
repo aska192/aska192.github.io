@@ -48,6 +48,16 @@ $(document).ready(function () {
             }
         });
 
+        $('.media-left').fancybox({
+            openEffect: 'elastic',
+            closeEffect: 'elastic',
+            helpers: {
+                title: {
+                    type: 'inside'
+                }
+            }
+        });
+
     //ISOTOPE  PLUGIN SCRIPT FOR FILTER FUCNTIONALITY
         $(window).load(function () {
             var $container = $('#portfolio-div');
@@ -78,6 +88,7 @@ $(document).ready(function () {
 
     //CLIENTS SLIDER
         $("#clients-slider").carousel({
-            interval: 2000 //TIME IN MILLI SECONDS
-        });
+            interval: 3000 //TIME IN MILLI SECONDS
+        });
+
 });
