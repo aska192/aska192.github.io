@@ -135,7 +135,7 @@ padding:0px;
 
     #header .overlay {
         background-color: rgba(3, 3, 3, 0.8);
-        min-height: 750px;
+        min-height: 770px;
     }
 
     #header h1 {
@@ -188,7 +188,7 @@ padding:0px;
     #softwares-slider .overlay {
         background-color: rgba(0,0,0,0.7);
         padding-top: 90px;
-        min-height: 300px;
+        min-height: 330px;
         color: #fff;
         padding-top: 100px;
         padding-bottom: 100px;
